@@ -9,7 +9,7 @@ public class AmicableNumbers {
         this.maxNum = maxNum;
     } //End Constructor
     
-    private static ArrayList<Integer> divisorList (int divisor) {
+    private ArrayList<Integer> divisorList (int divisor) {
         
         ArrayList<Integer> dList = new ArrayList<Integer>();
         
@@ -23,7 +23,7 @@ public class AmicableNumbers {
         
     } //End divisorList method
     
-    private static int getListTotal (ArrayList<Integer> divisorList) {
+    private int getListTotal (ArrayList<Integer> divisorList) {
         int total = 0;      
         
         for(int divisor : divisorList){
